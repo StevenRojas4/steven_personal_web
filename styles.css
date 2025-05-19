@@ -207,4 +207,25 @@ footer {
 
 .about-container ul li {
   margin-bottom: 0.5rem;
+} 
+
+/* About Page Layout */
+.about-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.about-img {
+  flex: 0 0 200px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #3c9e3c;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.about-text {
+  flex: 1;
 }
