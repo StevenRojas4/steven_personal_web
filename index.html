@@ -44,11 +44,22 @@
       border-left: 5px solid #3c9e3c;
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      text-align: center; /* Center content including image */
     }
 
     .highlight h3 {
       color: #2e7d32;
       margin-bottom: 0.5rem;
+    }
+
+    /* New styling for the image in first highlight */
+    .highlight img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      max-height: 200px; /* Medium sized */
+      object-fit: cover;
     }
 
     .cta {
@@ -96,6 +107,7 @@
     <!-- Highlights Section -->
     <section class="highlight-section">
       <div class="highlight">
+        <img src="images/web-design-medium.jpg" alt="Web Design Project Example" />
         <h3>Web Design Projects</h3>
         <p>Browse modern, responsive web designs I’ve built from scratch or improved from templates.</p>
       </div>
@@ -122,3 +134,4 @@
   </footer>
 </body>
 </html>
+
